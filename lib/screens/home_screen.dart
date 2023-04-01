@@ -83,7 +83,7 @@ class HomeScreen extends StatelessWidget {
           height: 4,
         ),
         Text(
-          'Raul Iqbal',
+          'Muhammad Khoirul Anwarudin',
           style: GoogleFonts.poppins(
               color: primary, fontSize: 24, fontWeight: FontWeight.w600),
         ),
@@ -125,7 +125,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               Row(
                 children: [
-                  SvgPicture.asset('assets/svgs/ic_book.svg'),
+                  Image.network('https://www.minhajulatsar.com/wp-content/uploads/2021/08/ashkan-forouzani-7blIFp0kFP4-unsplash-scaled.jpg'),
                   const SizedBox(
                     width: 8,
                   ),
@@ -172,7 +172,7 @@ class HomeScreen extends StatelessWidget {
               onPressed: () {},
               icon: SvgPicture.asset('assets/svgs/ic_menu.svg')),
           Text(
-            'My Mushaf',
+            'My App Mushaf',
             style: GoogleFonts.poppins(
                 color: primary, fontSize: 18, fontWeight: FontWeight.bold),
           ),

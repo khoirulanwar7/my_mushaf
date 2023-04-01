@@ -30,7 +30,7 @@ class SplashScreen extends StatelessWidget {
                   height: 24,
                 ),
                 Text(
-                  "Jika kamu menjadikan Al-Qur'an sebagai panduan, maka kamu tidak akan pernah kehilangan arah.",
+                  "Ilmu bukanlah dengan banyaknya riwayat. Ilmu tidak lain adalah sebuah cahaya yang Allah tempatkan di dalam hati.",
                   style: GoogleFonts.poppins(
                       textStyle:
                           const TextStyle(color: Colors.white, fontSize: 14)),
